@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":disableDigestUpdates",
+    ":semanticCommitsDisabled",
+    "config:recommended",
+    "group:allNonMajor",
+    "schedule:weekly"
+  ],
+  "prConcurrentLimit": 0,
+  "minimumReleaseAge": "3 days",
+  "baseBranches": ["main"]
+}
